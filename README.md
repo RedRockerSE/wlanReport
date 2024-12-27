@@ -20,7 +20,7 @@ python wlanReport.py --output "C:\Users\XXX\Desktop\Case1\"
 python wlanReport.py --logo "C:\forensic\logo\logo.png"
 
 6. Combine options
-python wlanReport.py --format html --output "C:\Users\XXX\Desktop\K111222-24\" --logo "C:\forensic\logo\Riksemblem.png"
+python wlanReport.py --format html --output "C:\Users\XXX\Desktop\Case1\" --logo "C:\forensic\logo\logo.png"
 
 Signalstyrka (WiFi) mätt i dBm (decibels relativt 1 milliwatt)
 
