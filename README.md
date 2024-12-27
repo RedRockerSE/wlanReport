@@ -14,10 +14,10 @@ python wlanReport.py --format csv
 python wlanReport.py --format html
 
 4. Ange mapp som rapport skrivs till. Utelämnas denna flagga används standardmappen 
-python wlanReport.py --output "C:\Users\XXX\Desktop\K111222-24\"
+python wlanReport.py --output "C:\Users\XXX\Desktop\Case1\"
 
-5. Inkludera logga (Ex riksemblem)
-python wlanReport.py --logo "C:\forensic\logo\Riksemblem.png"
+5. Inkludera logga 
+python wlanReport.py --logo "C:\forensic\logo\logo.png"
 
 6. Combine options
 python wlanReport.py --format html --output "C:\Users\XXX\Desktop\K111222-24\" --logo "C:\forensic\logo\Riksemblem.png"
