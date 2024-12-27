@@ -1,7 +1,7 @@
 # wlanReport
 
 ## Installation
-`pip install reportlab matplotlib pandas customtkinter
+`pip install pywifi reportlab matplotlib pandas customtkinter
 
 ## Användning
 1. Skapa PDF rapport (default)
