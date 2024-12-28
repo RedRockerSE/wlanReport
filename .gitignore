@@ -5,3 +5,6 @@
 /venv311
 /venv312
 /__pycache__
+*.pdf
+*.csv
+*.html
