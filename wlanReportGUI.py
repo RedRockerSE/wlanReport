@@ -124,6 +124,18 @@ class WLANScannerGUI:
         
     def perform_scan(self):
         try:
+            try:
+                # Your wpa_supplicant access code here
+                pass
+            except PermissionError:
+                messagebox.showerror(
+                    "Permission Error",
+                    "Cannot access WiFi information. On Linux systems, this program needs elevated privileges.\n\n"
+                    "Please run with 'sudo' or add your user to the 'netdev' group.\n"
+                    "See the included sudoers_note.txt file for details."
+                )
+                # Either exit here or continue with limited functionality
+            
             scanner = WLANScanner(
                 output_dir=self.output_dir.get(),
                 company_logo=self.logo_path.get() if self.logo_path.get() else None,

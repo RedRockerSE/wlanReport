@@ -4,9 +4,8 @@ block_cipher = None
 
 # Common data files and dependencies for both executables
 added_files = [
-    ('config.ini', '.'),
     ('README.md', '.'),
-    ('LICENSE', '.')
+    ('sudoers_note.txt', '.')
 ]
 
 # First executable - wlanReport.py
@@ -55,7 +54,7 @@ b = Analysis(
     pathex=[],
     binaries=[],
     datas=added_files,
-    hiddenimports=[],
+    hiddenimports=['tkinter'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

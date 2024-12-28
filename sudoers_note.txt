@@ -1,0 +1,10 @@
+Linux Users:
+This application requires access to WiFi system files. You have two options:
+
+1. Run the application with sudo privileges:
+   sudo ./wlanReportGUI
+
+2. Add your user to the 'netdev' group (recommended):
+   sudo usermod -a -G netdev $USER
+   
+After adding yourself to the netdev group, you'll need to log out and log back in for the changes to take effect. 
